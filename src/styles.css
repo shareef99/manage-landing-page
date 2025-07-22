@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@utility container {
+  padding-inline: 1rem;
+  margin-inline: auto;
+  max-width: 100%;
+
+  @variant md {
+    padding-inline: 2rem;
+  }
+
+  @variant lg {
+    padding-inline: 3rem;
+  }
+
+  @variant xl {
+    padding-inline: 4rem;
+  }
+}
