@@ -1,6 +1,9 @@
+import Header from "./components/header";
+
 export default function App() {
   return (
-    <main>
+    <main className="font-vietnam">
+      <Header />
       Pricing Product About Us Careers Community Get Started Bring everyone
       together to build better products. Manage makes it simple for software
       teams to plan day-to-day tasks while keeping the larger team goals in
