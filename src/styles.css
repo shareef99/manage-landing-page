@@ -28,3 +28,10 @@
 
   --font-vietnam: "Be Vietnam Pro", sans-serif;
 }
+
+html,
+body {
+  font-family: var(--font-vietnam);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}

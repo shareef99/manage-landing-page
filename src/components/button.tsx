@@ -13,11 +13,12 @@ export default function Button({
     <button
       {...props}
       className={twMerge(
+        "shadow-lg",
         variant === "primary" &&
-          "bg-c-orange font-medium px-8 py-2 rounded-full",
+          "bg-c-orange text-c-gray-50 shadow-c-orange rounded-full px-8 py-2 font-medium",
         variant === "secondary" &&
-          "bg-c-orange-50 text-c-orange font-medium px-8 py-2 rounded-full",
-        className
+          "bg-c-orange-50 text-c-orange shadow-c-orange-50 rounded-full px-8 py-2 font-medium",
+        className,
       )}
     />
   );

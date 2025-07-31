@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <header className="relative container lg:flex lg:items-center lg:justify-between">
-      <div className="my-8 flex items-center justify-between">
+      <div className="my-12 flex items-center justify-between lg:my-8">
         <div className="-mb-1">
           <img src="/images/logo.svg" alt="logo" />
         </div>
@@ -24,6 +24,9 @@ export default function Header() {
             <img src="/images/icon-hamburger.svg" alt="hamburger" />
           )}
         </button>
+      </div>
+      <div className="absolute -top-20 -right-12 left-12 z-[-1]">
+        <img src="/images/bg-tablet-pattern.svg" alt="Manage Logo" />
       </div>
       {/* Small Screen Navbar */}
       {isOpen && (
